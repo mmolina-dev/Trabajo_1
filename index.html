@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial de fútbol</title>
+</head>
+<body>
+<!-- Encabezado de la página -->
+    <header>
+        <h1>Mundial 2026: USA, México y Canadá</h1>
+    </header>
+
+    <!-- Todo el contenido principal de la página (main) -->
+     <main>
+        <!-- Apartado en el que se habla sobre qué es el Mundial -->
+        <section>
+            <h2>Introducción al mundial</h2>
+            <p>La Copa Mundial de la FIFA es el torneo internacional de fútbol masculino más importante del mundo, donde selecciones nacionales compiten por el título cada cuatro años. Organizado desde 1930 (con excepciones en 1942 y 1946), reúne a las mejores selecciones tras una fase clasificatoria, siendo un fenómeno global que celebra el deporte y la diversidad cultural.
+            </p>
+            <p> El Mundial 2026 será un evento histórico sin precedentes al ser el primero organizado por tres países (Estados Unidos, México y Canadá) y el primero en expandirse a 48 selecciones. Con un total de 104 partidos distribuidos en 16 ciudades sedes, el torneo estrena un formato de 12 grupos y una ronda adicional de dieciseisavos de final, culminando con la gran final el 19 de julio en el MetLife Stadium de Nueva York/Nueva Jersey.</p>
+            <img src="copa-mundial-fifa-2026.jpg" alt="Imagen mundial 20226" width="250px">
+        </section>
+        <section>
+            <h2>Selecciones más ganadoras</h2>
+            <ol>
+                <li>Brasil (5 copas)</li>
+                <li>Alemania (5 copas)</li>
+                <li>Italia (4 copas)</li>
+                <li>Argentina (3 copas)</li>
+                <li>Francia (2 copas)</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Paises anfitriones y estadios</h2>
+            <ul>
+                <li>México</li>
+                <ul>
+                    <li>Estadio Azteca (Ciudad de México)</li>
+                    <li>Estadio Akron (Guadalajara)</li>
+                    <li>Estadio BBVA (Monterrey)</li>
+                </ul>
+                <li>USA</li>
+                <ul>
+                    <li>MetLife Stadium (New Jersey) Final</li>
+                    <li>AT&T Stadium (Texas)</li>
+                    <li>Mercedes-Benz Stadium (Atlanta)</li>
+                    <li>SoFi Stadium (California)</li>
+                    <li>Levi´s Stadium (California)</li>
+                    <li>Gillette Stadium (Massachusetts)</li>
+                    <li>Lincoln Financial Field (Filadelfia)</li>
+                    <li>Hard Rock Stadium (Miami)</li>
+                    <LI>Lumen Field (Washington)</LI>
+                    <li>NRG Stadium (Texas)</li>
+                    <li>GEHA Field at Arrowhead Stadium (Misuri)</li>
+                </ul>
+                <li>Canadá</li>
+                <ul>
+                    <li>BC Place (Vancouver)</li>
+                    <li>BMO Field (Toronto)</li>
+                </ul>
+            </ul>
+        </section>
+        <section>
+            <h2>Cronograma fase de grupos</h2>
+            <table border="10" cellspacing="5" cellpading="0">
+                <!-- Fils de los títulos -->
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Partido</th>
+                        <th>Estadio</th>
+                        <th>Grupo</th>
+                    </tr>
+                </thead>
+                <!-- Información de los partidos (Tabla) -->
+                 <tbody>
+                    <tr>
+                        <td rowspan="2">11/06/26</td>
+                        <td>3:00pm</td>
+                        <td>México vs Sudrafica</td>
+                        <td>Estadio Azteca</td>
+                        <td><text-align><center>A</center></text-align></td>
+                    </tr>
+                    <tr>
+                        <td>8:00pm</td>
+                        <td>Korea vs Dinamarca</td>
+                        <td>Estadio Akron</td>
+                        <td><text-align><center>A</center></text-align></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">12/06/26</td>
+                        <td>3:00pm</td>
+                        <td>Canadá vs Bosnia</td>
+                        <td>Estadio Akron</td>
+                        <td><text-align><center>B</center></text-align></td>
+                    </tr>
+                    <tr>
+                        <td>9:00pm</td>
+                        <td>USA vs Paraguay</td>
+                        <td>SoFi Stadium</td>
+                        <td><text-align><center>B</center></text-align></td>
+                    </tr>
+                 </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Predicción de campeón</h2>
+            <form action="#">
+                <div>
+                    <!-- Campo de nombre -->
+                    <label for="name">Escribe tu nombre</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Escribe tu correo:</label>
+                    <input type="mail" name="email" id="email">
+                </div>
+                <br>
+                <div>
+                    <label for="winner">¿Quién será el ganador del próximo mundial?</label>
+                    <select name="winner" id="winner">
+                        <option value="select" selected disabled>Elija el país que ganará</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="España">España</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Otro">Otra</option>
+                    </select>
+                    <br>
+                    <div>
+                        <label for="otra">Si eligió la opción "otra", escriba el país</label>
+                        <input type="text" name="otra" id="otra">
+                    </div>
+                </div>
+                <br>
+                <button type="submit">
+                    Enviar predicción
+                </button>
+            </form>
+        </section>
+     </main>
+</body>
+</html>
